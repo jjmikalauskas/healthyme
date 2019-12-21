@@ -20,7 +20,7 @@
           </a>
         </td>
         <td >{{entry.date | date}}</td>
-        <td >{{entry.weight}} lbs</td>
+        <td app-ChangeColor>{{entry.weight}} lbs</td>
         <td *ngIf="showBodyFat">{{entry.bodyfat | percent}}</td>
       </tr>
     </tbody>

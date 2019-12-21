@@ -1,12 +1,12 @@
 import { Directive, ElementRef, Renderer2 } from '@angular/core';
 
 @Directive({
-  selector: '[hmChangeColor]'
+  selector: '[app-ChangeColor]'
 })
 export class ChangeColorDirective {
 
   constructor(elem: ElementRef, renderer: Renderer2) {
-    renderer.setStyle(elem.nativeElement, 'color', 'green');
+    renderer.setStyle(elem.nativeElement, 'color', 'red');
   }
 
 }
