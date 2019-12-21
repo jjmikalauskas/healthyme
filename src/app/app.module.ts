@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { NewWeightEntryComponent } from './new-weight-entry/new-weight-entry.component';
 import { LoginComponent } from './login/login.component';
 import { EntryDetailsComponent } from './entry-details/entry-details.component';
+import { ChangeColorDirective } from './change-color.directive';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { EntryDetailsComponent } from './entry-details/entry-details.component';
     NewWeightEntryComponent,
     LoginComponent,
     EntryDetailsComponent,
+    ChangeColorDirective,
   ],
   imports: [
     CommonModule,
